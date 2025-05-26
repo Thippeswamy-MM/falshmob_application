@@ -21,7 +21,7 @@ export default function WishlistScreen() {
 
   const handleRemoveFromWishlist = React.useCallback((id: string) => {
     if (!id) return;
-    
+
     Alert.alert(
       "Remove from Wishlist",
       "Are you sure you want to remove this item from your wishlist?",
