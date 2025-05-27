@@ -50,4 +50,4 @@ const styles = StyleSheet.create({
     marginLeft: SIZES.m,
     padding: SIZES.base,
   },
-});
+}); 
